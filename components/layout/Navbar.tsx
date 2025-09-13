@@ -55,7 +55,7 @@ export function Navbar() {
           href="#hero"
           className="text-xl font-bold tracking-tighter hover:text-primary transition-colors"
         >
-          MK
+          RK
         </Link>
 
         {/* Desktop Navigation */}
@@ -73,13 +73,13 @@ export function Navbar() {
 
         <div className="flex items-center space-x-4">
           <div className="hidden md:flex items-center space-x-4">
-            <Link href="https://github.com/milankatira" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/rammotivaras" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon">
                 <Github className="h-4 w-4" />
                 <span className="sr-only">GitHub</span>
               </Button>
             </Link>
-            <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/ram-motivaras/" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon">
                 <Linkedin className="h-4 w-4" />
                 <span className="sr-only">LinkedIn</span>
@@ -137,13 +137,13 @@ export function Navbar() {
               </Link>
             ))}
             <div className="flex items-center space-x-4 py-2">
-              <Link href="https://github.com/milankatira" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/rammotivaras" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon">
                   <Github className="h-4 w-4" />
                   <span className="sr-only">GitHub</span>
                 </Button>
               </Link>
-              <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.linkedin.com/in/ram-motivaras/" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon">
                   <Linkedin className="h-4 w-4" />
                   <span className="sr-only">LinkedIn</span>

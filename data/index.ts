@@ -7,32 +7,36 @@ export const navItems = [
 
 export const testimonials = [
   {
-    quote: "I highly recommend Milan Katira for any full-stack development project. His technical expertise, attention to detail, and problem-solving skills are second to none.",
+    quote:
+      "I highly recommend Ramji Motivaras for any full-stack development project. His technical expertise, attention to detail, and problem-solving skills are second to none.",
     name: "Shraddha Choudhary",
-    title: "Senior Software Developer at York IE"
+    title: "Senior Software Developer at York IE",
   },
   {
-    quote: "Working with Milan Katira was a pleasure. He has a deep understanding of both front-end and back-end development and was able to deliver a high-quality product within a tight deadline.",
+    quote:
+      "Working with Ramji Motivaras was a pleasure. He has a deep understanding of both front-end and back-end development and was able to deliver a high-quality product within a tight deadline.",
     name: "Bhavik Lotia",
-    title: "Senior Software Engineer at ShineInfosoft"
+    title: "Senior Software Engineer at ShineInfosoft",
   },
   {
-    quote: "Milan Katira is an exceptional full-stack developer. He seamlessly integrates different technologies and platforms to create robust and scalable solutions that meet business needs.",
+    quote:
+      "Ramji Motivaras is an exceptional full-stack developer. He seamlessly integrates different technologies and platforms to create robust and scalable solutions that meet business needs.",
     name: "Rohit Raj",
-    title: "Software Engineer at Cerebry"
+    title: "Software Engineer at Cerebry",
   },
   {
-    quote: "Milan's ability to architect complex systems while maintaining clean, maintainable code is impressive. He delivered our enterprise solution ahead of schedule with zero critical bugs.",
+    quote:
+      "Ramji's ability to architect complex systems while maintaining clean, maintainable code is impressive. He delivered our enterprise solution ahead of schedule with zero critical bugs.",
     name: "Ashish Gupta",
-    title: "QA Analyst at InstaService"
+    title: "QA Analyst at InstaService",
   },
   {
-    quote: "As an independent contractor, Milan designed a highly scalable system architecture that now handles 5x our original traffic with minimal resource usage. His ability to own projects end-to-end makes him invaluable.",
+    quote:
+      "As an independent contractor, Ramji designed a highly scalable system architecture that now handles 5x our original traffic with minimal resource usage. His ability to own projects end-to-end makes him invaluable.",
     name: "Mukesh Singh",
-    title: "Senior QA at Cerebry"
+    title: "Senior QA at Cerebry",
   },
 ];
-
 
 export const companies = [
   {
@@ -66,4 +70,3 @@ export const companies = [
     nameImg: "/dockerName.svg",
   },
 ];
-

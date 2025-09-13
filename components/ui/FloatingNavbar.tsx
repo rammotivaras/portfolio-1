@@ -72,8 +72,19 @@ export const FloatingNav = ({
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}
       >
-        <a className="font-bold hidden text-sm sm:flex items-center justify-center text-white space-x-2 mr-10" href="/"><Image src={"/milan_katira.jpeg"} style={{ color: 'transparent' }} alt="profile"  width={24} height={24} className="rounded-full"/>
-          <span className="font-inter font-bold">Milan katira</span>
+        <a
+          className="font-bold hidden text-sm sm:flex items-center justify-center text-white space-x-2 mr-10"
+          href="/"
+        >
+          <Image
+            src={"/ramji_motivaras.jpg"}
+            style={{ color: "transparent" }}
+            alt="profile"
+            width={24}
+            height={24}
+            className="rounded-full"
+          />
+          <span className="font-inter font-bold">Ramji Motivaras</span>
         </a>
         {navItems.map((navItem: any, idx: number) => (
           <Link

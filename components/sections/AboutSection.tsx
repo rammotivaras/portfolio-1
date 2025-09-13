@@ -94,7 +94,7 @@ export default function AboutSection({ technologies = defaultTechnologies }) {
               asChild
             >
               <Link
-                href="/Milan_Katira_Senior_FullStack_Developer_4YOE.pdf"
+                href="/Ram_motivaras_Senior_FullStack_Developer_4YOE%20(1).pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -1,31 +1,45 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import { ThemeProvider } from '@/components/theme/theme-provider';
-import { Footer } from '@/components/layout/Footer';
-import { Toaster } from '@/components/ui/toaster';
-import { ProgressBarWrapper } from '@/components/progress-bar-wrapper';
-import Script from 'next/script';
+import "./globals.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import { ThemeProvider } from "@/components/theme/theme-provider";
+import { Footer } from "@/components/layout/Footer";
+import { Toaster } from "@/components/ui/toaster";
+import { ProgressBarWrapper } from "@/components/progress-bar-wrapper";
+import Script from "next/script";
 
-const inter = Inter({ subsets: ['latin'] });
-
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Milan Katira | Full-Stack Developer',
-  description: 'Professional portfolio of Milan Katira, a full-stack developer with 4+ years of experience building web applications.',
-  keywords: ['Milan Katira', 'Full-Stack Developer', 'Web Developer', 'Portfolio', 'React', 'Next.js', 'Tailwind CSS', 'TypeScript', 'JavaScript', 'HTML', 'CSS'],
+  title: "Ramji Motivaras | Full-Stack Developer",
+  description:
+    "Professional portfolio of Ramji Motivaras, a full-stack developer with 4+ years of experience building web applications.",
+  keywords: [
+    "Ramji Motivaras",
+    "Full-Stack Developer",
+    "Web Developer",
+    "Portfolio",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "CSS",
+  ],
   openGraph: {
-    title: 'Milan Katira | Full-Stack Developer',
-    description: 'Professional portfolio of Milan Katira, a full-stack developer with 4+ years of experience building web applications.',
-    siteName: 'Milan Katira',
-    url: 'https://www.milankatira.com',
-    type: 'website',
+    title: "Ramji Motivaras | Full-Stack Developer",
+    description:
+      "Professional portfolio of Ramji Motivaras, a full-stack developer with 4+ years of experience building web applications.",
+    siteName: "Ramji Motivaras",
+    url: "https://www.ramjimotivaras.com",
+    type: "website",
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Milan Katira | Full-Stack Developer',
-    description: 'Professional portfolio of Milan Katira, a full-stack developer with 4+ years of experience building web applications.',
-    creator: '@milankatira26',
+    card: "summary_large_image",
+    title: "Ramji Motivaras | Full-Stack Developer",
+    description:
+      "Professional portfolio of Ramji Motivaras, a full-stack developer with 4+ years of experience building web applications.",
+    creator: "@ramji_motivaras",
   },
 };
 
@@ -37,11 +51,14 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/milan_katira.jpeg" type="image/jpeg" />
-        <link rel="canonical" href="https://www.milankatira.com" />
+        <link rel="icon" href="/ramji_motivaras.jpg" type="image/jpg" />
+        <link rel="canonical" href="https://www.ramjimotivaras.com" />
       </head>
       <body className={`${inter.className} bg-black-100`}>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-L77M2ZG6HP" strategy="afterInteractive" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-L77M2ZG6HP"
+          strategy="afterInteractive"
+        />
         <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -55,16 +72,16 @@ export default function RootLayout({
             {
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "Milan Katira",
-              "url": "https://www.milankatira.com/",
+              "name": "Ramji Motivaras",
+              "url": "https://www.ramjimotivaras.com/",
               "jobTitle": "Full-Stack Developer",
               "worksFor": {
                 "@type": "Organization",
-                "name": "Milan Katira"
+                "name": "Ramji Motivaras"
               },
               "sameAs": [
-                "https://www.linkedin.com/in/milan-katira/",
-                "https://github.com/milankatira"
+               "https://github.com/rammotivaras",
+                "https://www.linkedin.com/in/ram-motivaras/"
               ]
             }
           `}
