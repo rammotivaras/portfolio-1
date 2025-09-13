@@ -9,32 +9,32 @@ export const testimonials = [
   {
     quote:
       "I highly recommend Ramji Motivaras for any full-stack development project. His technical expertise, attention to detail, and problem-solving skills are second to none.",
-    name: "Shraddha Choudhary",
-    title: "Senior Software Developer at York IE",
+    name: "Kamal sir",
+    title: "Tjcg",
   },
   {
     quote:
       "Working with Ramji Motivaras was a pleasure. He has a deep understanding of both front-end and back-end development and was able to deliver a high-quality product within a tight deadline.",
-    name: "Bhavik Lotia",
-    title: "Senior Software Engineer at ShineInfosoft",
+    name: "jagruti ma'am",
+    title: "Hr",
   },
   {
     quote:
       "Ramji Motivaras is an exceptional full-stack developer. He seamlessly integrates different technologies and platforms to create robust and scalable solutions that meet business needs.",
-    name: "Rohit Raj",
-    title: "Software Engineer at Cerebry",
+    name: "Ramiz",
+    title: "Software Engineer ",
   },
   {
     quote:
       "Ramji's ability to architect complex systems while maintaining clean, maintainable code is impressive. He delivered our enterprise solution ahead of schedule with zero critical bugs.",
-    name: "Ashish Gupta",
-    title: "QA Analyst at InstaService",
+    name: "Mehul ",
+    title: "Software Engineer ",
   },
   {
     quote:
       "As an independent contractor, Ramji designed a highly scalable system architecture that now handles 5x our original traffic with minimal resource usage. His ability to own projects end-to-end makes him invaluable.",
-    name: "Mukesh Singh",
-    title: "Senior QA at Cerebry",
+    name: "rupesh soni",
+    title: "Senior software devloper",
   },
 ];
 
