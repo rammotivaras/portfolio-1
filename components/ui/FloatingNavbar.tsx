@@ -77,7 +77,7 @@ export const FloatingNav = ({
           href="/"
         >
           <Image
-            src={"/ramji_motivaras.jpg"}
+            src={"/Ramji_Motivaras.jpg"}
             style={{ color: "transparent" }}
             alt="profile"
             width={24}
