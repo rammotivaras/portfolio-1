@@ -76,14 +76,15 @@ export const FloatingNav = ({
           className="font-bold hidden text-sm sm:flex items-center justify-center text-white space-x-2 mr-10"
           href="/"
         >
-          <Image
-            src={"/Ramji_Motivaras.jpg"}
-            style={{ color: "transparent" }}
-            alt="profile"
-            width={24}
-            height={24}
-            className="rounded-full"
-          />
+       <Image
+  src="/Ramji_Motivaras.jpg"
+  alt="profile"
+  width={40}
+  height={40}
+  className="w-10 h-10 rounded-full object-cover"
+  style={{ borderRadius: "50%" }}
+/>
+
           <span className="font-inter font-bold">Ramji Motivaras</span>
         </a>
         {navItems.map((navItem: any, idx: number) => (
