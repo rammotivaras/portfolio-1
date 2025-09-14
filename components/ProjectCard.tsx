@@ -83,11 +83,11 @@ export default function ProjectCard() {
                   </Button>
                 </Link>
               )}
-              <Link href={`/project-details/${project.slug}`} passHref>
+              {/* <Link href={`/project-details/${project.slug}`} passHref>
                 <Button variant="outline" className="w-full sm:w-fit">
                   Project Details
                 </Button>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </article>
